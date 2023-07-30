@@ -1,0 +1,74 @@
+.quoteBox {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+.animation {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s;
+    top:20px;
+}
+
+.animation:hover {
+	opacity: 0.8;
+	transform: rotate(25deg) scale(1.1);
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f10d3f;
+    font-size: 50px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+.buttonLock {
+    background-color:#eef11a;
+    color:#893446;
+    width: 168px;
+    height: 37px;
+    border-color: #f1e2e2;
+    border-radius: 0.5rem;
+}
+
+.phrase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    width: 467px;
+    height: 159px;
+    top:324px;
+    left:414px;
+    border:2px;
+    color:#727272;
+    background-image: url("/public/Rectangle\ 2.png");
+    background-position: center;
+    background-size:contain;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/public/Rectangle\ 6.png");
+    width: 245px;
+    height: 38px;
+    color:#727272;
+}
