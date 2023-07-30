@@ -25,7 +25,7 @@ img{
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #f10d3f;
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
 .contain{
@@ -52,22 +52,22 @@ h1 {
     padding: 0 10px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-size: 20px;
-    width: 467px;
+    width: 100%;
     height: 159px;
     top:324px;
     left:414px;
     border:2px;
     color:#727272;
-    background-image: url("/public/Rectangle\ 2.png");
+    background-image: url("/Rectangle2.png");
     background-position: center;
-    background-size:contain;
+    background-size:cover;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/public/Rectangle\ 6.png");
+    background-image: url("/Rectangle6.png");
     width: 245px;
     height: 38px;
     color:#727272;
