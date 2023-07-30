@@ -9,7 +9,7 @@ const QuoteBox = ({handleChangeQuote, quote}) => {
 
     <section className="contain">
         <div className="animation">
-          <img src="./public/images/chinito.png"/>
+          <img src="/images/chinito.png"/>
         </div>
        <button className="buttonLock" onClick={handleChangeQuote}>TRY MY LUCK</button>
         <article>
