@@ -1,6 +1,6 @@
 import "./styles/QuoteBox.css"
 
-const QuoteBox = ({handleChangeQuote, quote}) => {
+const QuoteBox = ({handleChangeQuote, quote, images}) => {
   console.log(handleChangeQuote);
 
   return (
@@ -9,7 +9,7 @@ const QuoteBox = ({handleChangeQuote, quote}) => {
 
     <section className="contain">
         <div className="animation">
-          <img src="/images/chinito.png"/>
+          <img src={images}/>
         </div>
        <button className="buttonLock" onClick={handleChangeQuote}>TRY MY LUCK</button>
         <article>
